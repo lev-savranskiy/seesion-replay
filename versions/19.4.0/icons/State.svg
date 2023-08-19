@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>State</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-Buyflow-Views" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ship_flow_checkout_default_shipping_restrictions" transform="translate(-582.000000, -441.000000)">
+            <rect fill="#F2F4F5" x="0" y="0" width="1280" height="2116"></rect>
+            <path d="M163,216.5 C161.619288,216.5 160.5,217.619288 160.5,219 L160.5,1849 C160.5,1850.38071 161.619288,1851.5 163,1851.5 L1117,1851.5 C1118.38071,1851.5 1119.5,1850.38071 1119.5,1849 L1119.5,219 C1119.5,217.619288 1118.38071,216.5 1117,216.5 L163,216.5 Z" id="Rectangle-5" stroke="#DDE2E6" fill="#FFFFFF"></path>
+            <g id="Checkbox-with-Label-Copy" transform="translate(582.000000, 441.000000)">
+                <g id="Inputs/Option-Input/Checkbox/State/checked-disabled">
+                    <rect id="forms/mixin/selected" stroke="#C7CDD2" stroke-width="1" fill="#F2F4F5" fill-rule="evenodd" x="0.5" y="0.5" width="23" height="23" rx="3"></rect>
+                    <polyline id="checkbox_check" stroke="#9BA4AA" stroke-width="2" stroke-linecap="round" points="6.46153846 12.529372 10.4827878 16.6153846 17.5384615 8.30769231"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

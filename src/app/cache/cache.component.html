@@ -1,0 +1,95 @@
+<div class="">
+ <span>
+   <img src="assets/Comcast-Logo.png" class="logo"/>
+ </span>
+ <span>
+   <img src="assets/Replay-Logo.png" class="logo"/>
+ </span>
+ <mat-form-field>
+   <input matInput placeholder="Cache ID" [(ngModel)]="cacheid">
+ </mat-form-field>
+ <mat-form-field>
+   <input matInput placeholder="Session ID" [(ngModel)]="sessionid">
+ </mat-form-field>
+ <mat-form-field>
+   <input matInput placeholder="Account ID" [(ngModel)]="accountid">
+ </mat-form-field>
+ <mat-form-field>
+   <input matInput placeholder="Agent ID" [(ngModel)]="agentid">
+ </mat-form-field>
+ <button mat-button (click)="pullData()" mat-raised-button color="primary">
+   <mat-icon>search</mat-icon>
+    Lookup
+ </button>
+ <button mat-button (click)="clearSearch()" mat-raised-button color="primary">
+   <mat-icon>clear</mat-icon>
+    Clear
+ </button>
+</div>
+<div class="stat">DB records:{{stats.count}}, Size: {{(stats.storageSize / 1000)}}Kb</div>
+<div class="mat-elevation-z8">
+ <table mat-table #table [dataSource]="dataSource">
+
+   <ng-container matColumnDef="cacheId">
+     <th mat-header-cell *matHeaderCellDef>Cache ID</th>
+     <td mat-cell *matCellDef="let element" class="col">{{element.cacheId || '-'}}</td>
+   </ng-container>
+
+   <!--<ng-container matColumnDef="session">-->
+   <!--<th mat-header-cell *matHeaderCellDef>Session ID</th>-->
+   <!--<td mat-cell *matCellDef="let element">{{element.session || '-'}}</td>-->
+   <!--</ng-container>-->
+
+
+   <ng-container matColumnDef="account">
+     <th mat-header-cell *matHeaderCellDef>Account</th>
+     <td mat-cell *matCellDef="let element">{{element.account ? element.account.id : '-'}}</td>
+   </ng-container>
+
+   <ng-container matColumnDef="agent">
+     <th mat-header-cell *matHeaderCellDef>Agent</th>
+     <td mat-cell *matCellDef="let element">{{element.agent ? element.agent.id : '-'}}</td>
+   </ng-container>
+
+   <ng-container matColumnDef="steps">
+     <th mat-header-cell *matHeaderCellDef>Events</th>
+     <td mat-cell *matCellDef="let element">{{element.steps && element.steps.length}}</td>
+   </ng-container>
+   <ng-container matColumnDef="requests">
+     <th mat-header-cell *matHeaderCellDef>Requests</th>
+     <td mat-cell *matCellDef="let element">{{element.requests && element.requests.length}}</td>
+   </ng-container>
+   <ng-container matColumnDef="size">
+     <th mat-header-cell *matHeaderCellDef>Size, kB</th>
+     <td mat-cell *matCellDef="let element">{{(getSize(element)/1000).toFixed(2)}}</td>
+   </ng-container>
+   <ng-container matColumnDef="time_finished">
+     <th mat-header-cell *matHeaderCellDef>Finished at</th>
+     <td mat-cell *matCellDef="let element">{{element.time_finished || '-'}}</td>
+   </ng-container>
+   <ng-container matColumnDef="iconsColumn">
+     <th mat-header-cell *matHeaderCellDef></th>
+     <td mat-cell *matCellDef="let element">
+       <button mat-button (click)="goToReplayLocal(element)" mat-raised-button color="primary">
+         <mat-icon>play_circle_outline</mat-icon>
+          Local version
+       </button>
+       <button mat-button (click)="goToReplayStatic(element)" mat-raised-button color="primary">
+         <mat-icon>play_circle_outline</mat-icon>
+          {{element.xm_version}} version
+       </button>
+       <button mat-button (click)="goToDevportal(element)" mat-raised-button color="primary">
+         <mat-icon>list</mat-icon>
+          Transactions
+       </button>
+     </td>
+   </ng-container>
+   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+ </table>
+  <div *ngIf="showLoading" class="loading">
+    <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.xmplay {
+  opacity: 0.5;
+  border: 3px black dashed;
+  position: fixed;
+  background-color: antiquewhite;
+  z-index: 10000;
+  /*top: ${this.top}px;*/
+  /*left: ${this.left}px;*/
+  left: 2%;
+  top: 2%;
+  padding: 0 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 30px;
+  /*height: 38px;*/
+  height: 98%;
+  width: 98%;
+}
+
+.xmplay-link {
+  cursor: pointer;
+}
+
+.xmplay-small {
+  font-size: 12px;
+}
+
+.xmplay-cache {
+  margin-left: 126px;
+}
+
+#xmplay-step-type {
+  width: 50px;
+  display: inline-block;
+  background-color: aquamarine;
+  text-align: center;
+  margin: 0 10px;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+#xmplay-cursor {
+  position: fixed;
+  /*display: none;*/
+  height: 32px;
+  width: 32px;
+  background-image: ${this.cursorUrl64};
+  background-repeat: no-repeat;
+  transition: all ${this.stepTimeout/1000}s;
+  transition-timing-function: linear;
+  border-radius: 16px;
+  top: ${this.top + 4}px;
+  left: ${this.left + 4}px;
+  z-index: 10001;
+}
+
+#xmplay-player {
+  opacity: 0.5;
+}
+

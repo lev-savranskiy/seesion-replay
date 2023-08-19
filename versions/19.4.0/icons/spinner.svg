@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MVE_Proactive-Actions_New" transform="translate(-670.000000, -214.000000)" fill="#FFFFFF" stroke-width="3">
+            <g id="progress-shape" transform="translate(672.000000, 216.000000)">
+                <g id="Group-3">
+                    <circle id="progress-shape" stroke="#E6EAED" cx="12" cy="12" r="12"></circle>
+                    <path d="M0,12 C0,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 C24,5.372583 18.627417,0 12,0" id="progress-shape" stroke="#0E8751" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

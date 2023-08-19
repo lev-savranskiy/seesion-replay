@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      window["adrum-app-key"] = "AD-AAB-AAF-WAK";
+      window["adrum-start-time"] = new Date().getTime();
+    </script>
+    <script src="http://localhost:3000/static/xmplay.js"></script>
+    <script src="http://localhost:3000/static/xmplay-runner.js"></script>
+    <title>XM 360</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <base href="/versions/19.4.0/">
+    <script type="text/javascript">
+      // Redirect to Websec if no token (and not using cache replay mode)
+      if (!sessionStorage.getItem('redirectedToWebsec') && !sessionStorage.getItem('accessToken') && !sessionStorage.getItem('useCache')&& (sessionStorage.getItem('useReplay') !== 'true')) {
+        sessionStorage.setItem('redirectedToWebsec', 'true');
+        var redirectUri = encodeURIComponent(window.location.href);
+        var websecUrl = 'https://websec-oic.cable.comcast.com/';
+        var url = websecUrl + 'as/authorization.oauth2?client_id=xm-ui&redirect_uri=' + redirectUri +
+          '&pfidpadapterid=loginform&scope=openid%20profile%20urn:mbo:scope:account:onbehalf%20urn:cable:scope:timeline' +
+          '%20einstein:dispotool&response_type=token';
+        window.location.replace(url);
+      }
+    </script>
+    <script type="text/javascript">
+      var digitalData = {
+        page: {
+            attribute: {
+                isPageLoadVariables: 'true'
+            },
+            pageInfo: {
+                pageLoadEvent: 'prodLoad',
+                language: 'en',
+                pageName: 'xm360|landing'
+            },
+            category: {
+                primaryCategory: 'xm360',
+                subCategory: 'xm360 landing'
+            },
+            siteInfo: {
+                siteType: 'XM360',
+            },
+            products: [],
+            events: [],
+            transactions: []
+        },
+      };
+    </script>
+  <link href="css/style.d450b1d1dc.css" rel="stylesheet"><script type="text/javascript" src="runtime.51fca18dd0.js" defer></script><script type="text/javascript" src="polyfills.c1938eafcb.js" defer></script><script type="text/javascript" src="commons.ce896234f3.js" defer></script><script type="text/javascript" src="app.2e5f08bb3f.js" defer></script><script type="text/javascript" src="vendor.de546d163e.js" defer></script></head>
+  <body id="xmBody">
+    <script src="modestoOptions.js"></script>
+    <my-app>
+      <img class="xfinity-loader" style="height: 200px; width: 200px; margin: auto; position: absolute; top: 0; left: 0; bottom: 0; right: 0;" src="img/loaders/xfinity_loader_new.gif" />
+    </my-app>
+  </body>
+  <script src="//cdn.appdynamics.com/adrum/adrum-4.5.5.1807.js" async defer></script>
+</html>

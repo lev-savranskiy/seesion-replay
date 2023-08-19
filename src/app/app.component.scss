@@ -1,0 +1,48 @@
+::ng-deep  .pt-4 {
+  padding-top: 1.5rem!important;
+}
+
+::ng-deep  .pt-3 {
+  padding-top: 1rem!important;
+}
+
+::ng-deep  .pt-2 {
+  padding-top: .5rem!important;
+}
+
+
+::ng-deep .ml-4 {
+  margin-left: 1.5rem!important;
+}
+
+::ng-deep .mr-0 {
+  margin-right: 0!important;
+}
+
+
+::ng-deep .text-right {
+  text-align: right!important;
+}
+
+::ng-deep .text-center {
+  text-align: center!important;
+}
+
+::ng-deep .col {
+  -ms-flex-positive: 1;
+  -ms-flex-preferred-size: 0;
+  -webkit-box-flex: 1;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+::ng-deep .row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/24/ic_global_coverage_blue_24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/24/ic_global_coverage_blue_24" stroke="#2A2C2D">
+            <g id="ic_global_coverage_blue_24" transform="translate(3.000000, 0.000000)">
+                <g id="Group-16" transform="translate(0.000000, 0.500000)">
+                    <polyline id="Stroke-1" stroke-linecap="round" stroke-linejoin="round" points="3.54668182 23.0512552 9.04786364 6.55125517 14.5490455 23.0512552"></polyline>
+                    <polygon id="Stroke-1" stroke-linecap="round" stroke-linejoin="round" points="10.6086495 12.6125128 7.39102717 12.6125128 12.5150842 18.7109744 5.5 18.7109744"></polygon>
+                    <path d="M9.59326364,6.02007857 C9.59326364,6.32490615 9.34917273,6.57180271 9.04780909,6.57180271 C8.74644545,6.57180271 8.50235455,6.32490615 8.50235455,6.02007857 C8.50235455,5.71525098 8.74644545,5.46835443 9.04780909,5.46835443 C9.34917273,5.46835443 9.59326364,5.71525098 9.59326364,6.02007857 L9.59326364,6.02007857 Z" id="Stroke-4"></path>
+                    <path d="M2.79864545,15.577931 C1.15546364,13.9428966 0.136281818,11.6675862 0.136281818,9.15172414 C0.136281818,4.17351724 4.12628182,0.137931034 9.04791818,0.137931034 C13.9695545,0.137931034 17.9592818,4.17351724 17.9592818,9.15172414 C17.9592818,11.6604138 16.9461,13.9296552 15.3113727,15.5635862" id="Stroke-6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.14845455,13.1965517 C3.20645455,12.068 2.63863636,10.6095172 2.63863636,9.01696552 C2.63863636,5.43655172 5.50827273,2.5342069 9.04772727,2.5342069 C12.5874545,2.5342069 15.4568182,5.43655172 15.4568182,9.01696552 C15.4568182,10.6517241 14.8584545,12.1452414 13.8714545,13.2856552" id="Stroke-8" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

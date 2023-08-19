@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>45A03954-C9AE-4349-86D7-6201C64CA20D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.1401185,10.4027108 C10.1401185,11.3700578 10.8899185,12.1534251 11.8160518,12.1534251 L16.2338918,12.1534251 C16.8447718,12.875568 17.4556518,13.5964863 18.0665318,14.3189353 C18.1481052,14.41567 18.3051185,14.3345476 18.3051185,14.2209761 L18.3051185,12.1534251 L21.0721718,12.1534251 C21.9983052,12.1534251 22.7481052,11.3688333 22.7481052,10.4027108 L22.7481052,5.77260879 C22.7481052,4.80526185 21.9983052,4.02067002 21.0721718,4.02067002 L11.8172785,4.02067002 C10.8911452,4.02067002 10.1401185,4.80526185 10.1401185,5.77260879 L10.1401185,10.4027108 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="14.6079867" height="12.3412853">
+            <rect x="9.14011849" y="3.02067002" width="14.6079867" height="12.3412853" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-79.000000, -357.000000)">
+            <g id="chat-(conversation)" transform="translate(79.394128, 357.057095)">
+                <rect id="Rectangle-653" fill="#256CEE" x="0" y="0" width="35" height="35" rx="4"></rect>
+                <g id="conversation" transform="translate(6.000000, 10.000000)">
+                    <path d="M9.33646667,9.48122449 L9.33646667,5.33295918 C9.33646667,4.26061224 10.16784,3.39122449 11.19456,3.39122449 L15.2603467,3.39122449 L15.2603467,2.40214286 C15.25912,1.07602041 14.2299467,0 12.9603467,0 L2.29877333,0 C1.03009333,0 0,1.07602041 0,2.40214286 L0,7.53459184 C0,8.86071429 1.03009333,9.93704082 2.29877333,9.93704082 L4.05842667,9.93704082 L4.05842667,12.7732653 C4.05842667,12.93 4.27432,13.039898 4.38564,12.9085714 C5.22406667,11.9182653 6.06157333,10.9282653 6.9,9.93704082 L9.38921333,9.93704082 C9.35578667,9.79102041 9.33646667,9.63795918 9.33646667,9.48122449 L9.33646667,9.48122449 Z" id="Fill-1" fill="#FFFFFF"></path>
+                    <g id="Fill-2">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use stroke="#256CEE" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico/24/chevron-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.8918058,11.9992187 L14.7704855,15.7175823 C15.0765048,16.0109531 15.0765048,16.4866011 14.7704855,16.7799719 C14.4644661,17.0733427 13.9683107,17.0733427 13.6622913,16.7799719 L9.22951453,12.5304135 C8.92349516,12.2370428 8.92349516,11.7613947 9.22951453,11.4680239 L13.6606614,7.22002809 C13.9666808,6.9266573 14.4628362,6.9266573 14.7688556,7.22002809 C15.074875,7.51339887 15.074875,7.9890469 14.7688556,8.28241768 L10.8918058,11.9992187 Z" id="path-1"></path>
+    </defs>
+    <g id="ico/chevron-left_24_blue-sky" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-9.000000, -7.000000)">
+        <g id="ico/24/chevron-left">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#0272B6" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

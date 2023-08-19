@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>4ABD5FC0-1883-484D-BFB6-BF2B48CA6315</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.4349999,8.80147465 L13.4349999,3.19115212 C13.4349999,3.19115212 13.1063991,3.23643544 12.5925189,3.23643544 C11.4546709,3.23643544 9.40704309,3.01442696 8,1.58820283 C6.59295691,3.01442696 4.54532909,3.23643544 3.40706571,3.23643544 C2.89318549,3.23643544 2.56500006,3.19115212 2.56500006,3.19115212 L2.56500006,3.78920974 L2.56500006,8.80147465 C2.56500006,12.1075576 8,14.4117972 8,14.4117972 C8,14.4117972 13.4349999,12.1075576 13.4349999,8.80147465 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="12.8699999" height="14.8235943">
+            <rect x="1.56500006" y="0.588202832" width="12.8699999" height="14.8235943" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-70.000000, -97.000000)">
+            <g id="icon/16/ic_global_sheild_grey_16" transform="translate(69.265813, 97.103459)">
+                <g>
+                    <use fill="#303030" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#303030" mask="url(#mask-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

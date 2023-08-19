@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>4F02993F-7C58-45F5-BCD7-683F66EF7073</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M11.2568056,13.4369748 C11.2540338,13.4354289 11.2512782,13.4338574 11.2485392,13.4322606 C11.0861927,13.3377235 10.9968219,13.165867 11,12.9904843 L11,6 C11,5.72385763 11.2238576,5.5 11.5,5.5 C11.7761424,5.5 12,5.72385763 12,6 L12,12.7124177 L17.4506384,15.8832397 C17.6893303,16.0220949 17.7702639,16.3281574 17.6314087,16.5668493 C17.4925535,16.8055412 17.1864911,16.8864749 16.9477991,16.7476197 L11.2568056,13.4369748 Z M12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 Z M12,23 C18.0751322,23 23,18.0751322 23,12 C23,5.92486775 18.0751322,1 12,1 C5.92486775,1 1,5.92486775 1,12 C1,18.0751322 5.92486775,23 12,23 Z" id="path-1"></path>
+    </defs>
+    <g id="ax-deferred-port-submit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-994.000000, -482.000000)">
+        <g id="port-pending" transform="translate(994.000000, 482.000000)">
+            <g id="ico/24/clock">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="ico-color/@yellow-pumpkin" mask="url(#mask-2)" fill="#FFA700" fill-rule="evenodd">
+                    <rect id="color/@yellow-pumpkin" x="0" y="0" width="50" height="50"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

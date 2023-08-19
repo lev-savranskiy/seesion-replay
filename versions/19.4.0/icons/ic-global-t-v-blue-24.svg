@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="21px" viewBox="0 0 25 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>68A04F1F-2186-4E09-88AD-9D143E2AE252</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-139.000000, -180.000000)">
+            <g id="icon/24/ic_global_TV_blue_24" transform="translate(139.894128, 178.145468)">
+                <g transform="translate(0.000000, -1.000000)" id="Group">
+                    <g transform="translate(0.000000, 2.374985)">
+                        <g id="Group-2" transform="translate(7.012174, 18.034783)"></g>
+                        <g id="Group-3" transform="translate(0.000000, 0.528605)" stroke="#0272B6">
+                            <rect id="Rectangle" x="0.5" y="0.591702428" width="23" height="15.0557492" rx="2"></rect>
+                            <path d="M7.99304332,19.6303636 L16.3347773,19.6303636" id="Line" stroke-linecap="round"></path>
+                            <path d="M11,15.7001018 L11,18.6936495" id="Line" stroke-linecap="square"></path>
+                            <path d="M13,15.7001018 L13,18.6936495" id="Line-Copy" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>529A51F3-BB28-4F17-994E-AF02648D60CB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0.778067589,7.9947834 C0.900637475,5.78852545 2.79171562,4 4.9947834,4 L15.0052166,4 C17.2114745,4 19.0995398,5.79171562 19.2219324,7.9947834 L19.7780676,18.0052166 C19.9006375,20.2114745 18.2075324,22 16.00077,22 L3.99922997,22 C1.79051625,22 0.0995397568,20.2082844 0.221932411,18.0052166 L0.778067589,7.9947834 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.5686382" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/24/ic_global_cart_white_24" stroke="#FFFFFF">
+            <g id="ic_global_order-placed_black_24">
+                <g id="Group-5" transform="translate(2.000000, 1.000000)">
+                    <use id="Rectangle-17" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <path d="M13,9 C13,9 13,4.35211737 13,3 C13,1.34314575 11.6568542,0 10,0 C8.34314575,0 7,1.34314575 7,3 C7,4.3794604 6.99999998,9 6.99999998,9" id="Oval-7" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "session": "dcf71f7f-1ecd-4264-9904-8fc820e0e12f",
+  "cacheId": "1549554391241",
+  "account": {
+    "id": "852016250608012019Comcast.RTVE"
+  },
+  "agent": {
+    "id": "lsavra472"
+  },
+  "url": "https://xmagent.xmobiletest.com/ci/",
+  "xm_version": "19.2",
+  "time_started": "Thu Feb 07 2019 11:23:10 GMT-0500 (Eastern Standard Time)",
+  "steps": [
+    {
+      "type": "click",
+      "target": "//*[@id=\"careDevices\"]",
+      "scrollX": "0",
+      "scrollY": "0"
+    },
+    {
+      "type": "focusout",
+      "target": "//*[@id=\"xmBody\"]/my-app/main/div[2]/my-care-landing-page/my-billing-payments/my-billing-payments-summary/div[2]/div[2]/div[2]/div/div[2]/a",
+      "scrollX": "0",
+      "scrollY": "0"
+    },
+    {
+      "type": "http",
+      "url": "https://mbo-agentgateway-2-ci.codebig2.net/cart/",
+      "method": "GET",
+      "response": {
+        "id": "9dd9980f-8967-4d00-aa0e-7dd083a151cd",
+        "type": "SALES",
+        "contactEmail": null,
+        "contactNumber": null,
+        "shippingAddress": {
+          "firstName": "PROSACCO",
+          "lastName": "LUCIENNE",
+          "address": {
+            "address1": "1717   ARCH ST",
+            "address2": "APT 99135",
+            "city": "PHILADELPHIA",
+            "country": null,
+            "state": "PA",
+            "zip": "19103"
+          }
+        },
+        "shippingMethod": null,
+        "price": {
+          "monthlyRecurringCharge": 57.0,
+          "monthlyRecurringTax": 2.46,
+          "oneTimeCharge": 634.94,
+          "oneTimeTax": 50.8
+        }
+      }
+    },
+    {
+      "type": "scroll",
+      "scrollX": "0",
+      "scrollY": "300"
+    }
+  ]
+}

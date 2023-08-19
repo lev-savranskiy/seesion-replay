@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>B19BE690-BD9A-4F24-BDD2-E38F63EC9BD3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.002989,23.9999998 C5.37547408,24.0013282 0.00132867189,18.6305039 2.46377496e-07,12.0029891 C-0.00132817913,5.37547432 5.36949616,0.00132897972 11.997011,5.54221064e-07 C18.6245259,-0.00199208402 23.9986713,5.3694964 23.9999998,11.9970112 C24.0013282,18.624526 18.6305038,23.9980071 12.002989,23.9999998 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="24" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="icon/24/ic_global_success_green_24" stroke="#1C9A62">
+            <g id="ic_global_success_green_24">
+                <g id="group">
+                    <polyline id="Stroke-14" stroke-linejoin="round" points="6 12.623442 9.81971698 16.5 17.8226298 7.5"></polyline>
+                    <use id="Stroke-1" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
